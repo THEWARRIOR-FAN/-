@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/static/img/sheller.jpeg");
+    background-size: cover;
+}
+
+ .title {
+      font-family: "楷体", serif;
+      font-size: 60px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 50px;
+      letter-spacing: 10px; /* 增加字间距 */
+ }
+.login-box {
+    width: 300px;
+    padding: 30px;
+    background-color: #ffffffc7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+input {
+    width: 180px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
