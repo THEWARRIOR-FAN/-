@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登录页面</title>
-    <link rel="stylesheet" href="{% static '/css/Home.css'%}">
+    <link rel="stylesheet" href="{% static '/css/Home_sheller.css'%}">
 </head>
 
 <body>
-    <div class="title">多来点餐</div>
+    <div class="title">多来点餐商家版</div>
     <div class="login-box">
         <h1>登录</h1>
         <form>
@@ -21,8 +21,7 @@
             <br>
             <button type="submit">登录</button>
         </form>
-        <p>还没有账号？<a href="{% url 'register'%}">立即注册</a></p>
-        <p>切换到<a href="{% url 'Home_sheller'%}">商家版</a></p>
+        <p>切换到<a href="{% url 'index' %}">客户版</a></p>
     </div>
 </body>
 </html>
